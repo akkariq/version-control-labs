@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="#roadmap">Карта курса</a> ·
   <a href="#labs">Лабораторные</a> ·
   <a href="#passport">Паспорт курса</a> ·
   <a href="#workflow">Как устроен сборник</a> ·
@@ -19,6 +20,26 @@
 | 03 | 04 | 27 |
 
 Показатели относятся к опубликованным Markdown-отчётам и проверенным результатам, а не к оценкам преподавателя.
+
+---
+
+<a id="roadmap"></a>
+## СКВ · Карта курса
+
+| № | Методичка | Статус | Переход |
+|:---:|---|---|---|
+| 01 | 0102_lab.md | ✅ Отчёт опубликован | [Читать](labs/lab01/README.md) |
+| 02 | 0202_lab.md | ✅ Отчёт опубликован | [Читать](labs/lab02/README.md) · [граф](docs/branch-graphs.md#сквлабораторная-2) |
+| 03 | 0302_lab.md | ✅ Отчёт опубликован | [Читать](labs/lab03/README.md) · [граф](docs/branch-graphs.md#сквлабораторная-3) |
+| 04 | 0402_lab.md | ⏳ Впереди | — |
+| 05 | 0502_lab.md | ⏳ Впереди | — |
+| 06 | 0602_lab.md | ⏳ Впереди | — |
+| 07 | 0702_lab.md | ⏳ Впереди | — |
+| 08 | 0802_lab.md | ⏳ Впереди | — |
+| 09 | 0902_lab.md | ⏳ Впереди | — |
+| 10 | 1002_lab.md | ⏳ Впереди | — |
+
+Статус «опубликован» означает наличие Markdown-отчёта в этом репозитории, а не оценку преподавателя. Темы работ №4–10 определяются по самим методичкам перед выполнением, а не по тематическому плану: фактические темы файлов и план могут расходиться. [Графы ветвления работ №2–3](docs/branch-graphs.md).
 
 ---
 
@@ -55,6 +76,7 @@
 | Материал | Переход |
 |---|---|
 | 📖 Отчёт | [Читать лабораторную №2](labs/lab02/README.md) |
+| 🌿 Граф ветвления | [Схема работы №2](docs/branch-graphs.md) |
 | 🔀 База данных | [Слитый MR !1](https://gitlab.com/akkariq/lab1-pin-b-o-24-1-2-ivannikovss/-/merge_requests/1) |
 | 🚀 Релиз v1.0.0 | [Слитый MR !2](https://gitlab.com/akkariq/lab1-pin-b-o-24-1-2-ivannikovss/-/merge_requests/2) |
 | 🔎 Последний коммит этапа №2 | [440b925 · history.txt](https://gitlab.com/akkariq/lab1-pin-b-o-24-1-2-ivannikovss/-/commit/440b925041b2c80c7fe65c34437b4a8c5198894c) |
@@ -80,6 +102,7 @@
 | Материал | Переход |
 |---|---|
 | 📖 Отчёт | [Читать лабораторную №3](labs/lab03/README.md) |
+| 🌿 Граф ветвления | [Схема работы №3](docs/branch-graphs.md) |
 | 🍴 Исходный проект | [akkariq/collab-project](https://gitlab.com/akkariq/collab-project) |
 | 🔀 Форк | [ivannikov-skv/collab-project](https://gitlab.com/ivannikov-skv/collab-project) |
 | 👤 Слитый MR !1 | [добавление участника](https://gitlab.com/akkariq/collab-project/-/merge_requests/1) |
@@ -127,14 +150,16 @@ version-control-labs/
 ├── README.md
 ├── AGENTS.md
 ├── assets/course-cover.svg
-├── docs/CONTEXT.md
+├── docs/
+│   ├── CONTEXT.md
+│   └── branch-graphs.md
 └── labs/
     ├── lab01/README.md
     ├── lab02/README.md
     └── lab03/README.md
 ```
 
-[Состояние курса и следующий шаг](docs/CONTEXT.md) · [Указатель для продолжения](AGENTS.md).
+[Состояние курса и следующий шаг](docs/CONTEXT.md) · [Указатель для продолжения](AGENTS.md) · [Графы ветвления](docs/branch-graphs.md).
 
 <details>
 <summary>▸ Принципы публикации</summary>
